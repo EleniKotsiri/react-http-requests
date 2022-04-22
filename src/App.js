@@ -56,7 +56,7 @@ function App() {
       console.log('Movie: ', movie);
       // fetch by default calls a GET method. We have to define it's a POST method
       const res = await 
-      fetch('https://react-http-requests-cfd09-default-rtdb.europe-west1.firebasedatabase.app/movies.json', {
+      fetch('add_firestore_database_here', {
          method: 'POST',
          body: JSON.stringify(movie),
          headers: {
