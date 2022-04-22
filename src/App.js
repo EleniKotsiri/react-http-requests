@@ -15,7 +15,7 @@ function App() {
       try {
          // 'GET' request
          const response = await 
-         fetch('https://react-http-requests-cfd09-default-rtdb.europe-west1.firebasedatabase.app/movies.json');
+         fetch('add_firestore_database_here');
          if (!response.ok) {
          throw new Error('Something went wrong!');
          }
